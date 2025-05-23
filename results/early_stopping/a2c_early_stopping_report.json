@@ -1,0 +1,30 @@
+{
+    "title": "A2C Early Stopping Analysis Report",
+    "date": "May 8, 2025",
+    "algorithm": "A2C",
+    "summary": {
+        "stabilization_point": "Episode 349 of 399",
+        "time_savings": "12.53%",
+        "episodes_saved": 50,
+        "reward_difference": "4.6957 (-13.56%)"
+    },
+    "conclusion": "Training can be stopped at episode 349 with minimal impact on performance, saving approximately 12.53% of training time.",
+    "recommendations": [
+        "Implement early stopping based on reward stabilization",
+        "Monitor the percentage change in reward and loss values",
+        "Consider a 1% change threshold as a stopping criterion",
+        "Set a window of 349 episodes as the baseline training duration"
+    ],
+    "visualizations": [
+        "a2c_training_metrics_with_stopping.png",
+        "a2c_training_stability.png",
+        "a2c_time_savings.png",
+        "a2c_reward_stabilization.png",
+        "a2c_comprehensive_early_stopping_analysis.png"
+    ],
+    "data_source": "proof/a2c_training_results_fixed.csv",
+    "a2c_specific": {
+        "entropy_at_stopping": "3.1814",
+        "final_entropy": "1.9205"
+    }
+}

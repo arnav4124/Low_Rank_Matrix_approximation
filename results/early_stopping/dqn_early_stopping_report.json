@@ -1,0 +1,26 @@
+{
+    "title": "DQN Early Stopping Analysis Report",
+    "date": "May 8, 2025",
+    "algorithm": "DQN",
+    "summary": {
+        "stabilization_point": "Episode 349 of 399",
+        "time_savings": "12.53%",
+        "episodes_saved": 50,
+        "reward_difference": "-0.8023 (2.33%)"
+    },
+    "conclusion": "Training can be stopped at episode 349 with minimal impact on performance, saving approximately 12.53% of training time.",
+    "recommendations": [
+        "Implement early stopping based on reward stabilization",
+        "Monitor the percentage change in reward and loss values",
+        "Consider a 1% change threshold as a stopping criterion",
+        "Set a window of 349 episodes as the baseline training duration"
+    ],
+    "visualizations": [
+        "dqn_training_metrics_with_stopping.png",
+        "dqn_training_stability.png",
+        "dqn_time_savings.png",
+        "dqn_reward_stabilization.png",
+        "dqn_comprehensive_early_stopping_analysis.png"
+    ],
+    "data_source": "proof/training_results.csv"
+}

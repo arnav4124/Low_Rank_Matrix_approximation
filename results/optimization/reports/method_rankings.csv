@@ -1,0 +1,33 @@
+matrix,method,score
+G12,Deterministic SVD,100.0
+G12,Weighted Ensemble,50.0
+G12,Hybrid SVD-Ensemble,75.0
+G12,Matrix-Adaptive,25.0
+G13,Deterministic SVD,100.0
+G13,Weighted Ensemble,50.0
+G13,Hybrid SVD-Ensemble,75.0
+G13,Matrix-Adaptive,25.0
+G14,Deterministic SVD,100.0
+G14,Weighted Ensemble,50.0
+G14,Hybrid SVD-Ensemble,75.0
+G14,Matrix-Adaptive,25.0
+G15,Deterministic SVD,100.0
+G15,Weighted Ensemble,50.0
+G15,Hybrid SVD-Ensemble,75.0
+G15,Matrix-Adaptive,25.0
+G2,Deterministic SVD,100.0
+G2,Weighted Ensemble,50.0
+G2,Hybrid SVD-Ensemble,75.0
+G2,Matrix-Adaptive,25.0
+G3,Deterministic SVD,100.0
+G3,Weighted Ensemble,50.0
+G3,Hybrid SVD-Ensemble,75.0
+G3,Matrix-Adaptive,25.0
+G4,Deterministic SVD,100.0
+G4,Weighted Ensemble,50.0
+G4,Hybrid SVD-Ensemble,75.0
+G4,Matrix-Adaptive,25.0
+G5,Deterministic SVD,100.0
+G5,Weighted Ensemble,50.0
+G5,Hybrid SVD-Ensemble,75.0
+G5,Matrix-Adaptive,25.0

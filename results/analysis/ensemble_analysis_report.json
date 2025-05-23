@@ -1,0 +1,10 @@
+{
+    "summary": {
+        "total_methods": 6,
+        "total_matrices": 8,
+        "methods_beating_svd_count": 0,
+        "matrices_beaten_by_ensemble": 0
+    },
+    "best_methods": [],
+    "best_matrices_to_target": {
+        

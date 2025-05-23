@@ -1,0 +1,12 @@
+<html><head><title>Method Comparison at Rank 10</title><style>table {border-collapse: collapse; width: 100%;} th, td {text-align: left; padding: 8px;} tr:nth-child(even) {background-color: #f2f2f2;} th {background-color: #4CAF50; color: white;}</style></head><body><h1>Method Comparison at Rank 10</h1><table>
+<thead>
+<tr><th>Method           </th><th style="text-align: right;">  Frob Error</th><th style="text-align: right;">  Spectral Error</th><th style="text-align: right;">  Time (s)</th><th style="text-align: right;">  Error/Time</th><th>vs SVD Error  </th><th>vs SVD Time  </th><th>Speedup  </th><th style="text-align: right;">  Overall Score</th></tr>
+</thead>
+<tbody>
+<tr><td>Deterministic SVD</td><td style="text-align: right;">      0.1843</td><td style="text-align: right;">          0.1499</td><td style="text-align: right;">    2.3727</td><td style="text-align: right;">      0.0777</td><td>1.00x         </td><td>1.00x        </td><td>1.00x    </td><td style="text-align: right;">         1.1937</td></tr>
+<tr><td>Randomized SVD   </td><td style="text-align: right;">      0.1843</td><td style="text-align: right;">          0.1499</td><td style="text-align: right;">    0.1079</td><td style="text-align: right;">      1.7086</td><td>1.00x         </td><td>0.05x        </td><td>21.99x   </td><td style="text-align: right;">         0.142 </td></tr>
+<tr><td>RL-A2C           </td><td style="text-align: right;">      0.9597</td><td style="text-align: right;">          0.9999</td><td style="text-align: right;">    2.5949</td><td style="text-align: right;">      0.3698</td><td>5.21x         </td><td>1.09x        </td><td>0.91x    </td><td style="text-align: right;">         1.6835</td></tr>
+<tr><td>RL-DQN           </td><td style="text-align: right;">      0.9966</td><td style="text-align: right;">          1     </td><td style="text-align: right;">    0.2279</td><td style="text-align: right;">      4.3724</td><td>5.41x         </td><td>0.10x        </td><td>10.41x   </td><td style="text-align: right;">         0.6028</td></tr>
+<tr><td>CUR              </td><td style="text-align: right;">      2.6888</td><td style="text-align: right;">          4.236 </td><td style="text-align: right;">    0.0804</td><td style="text-align: right;">     33.4437</td><td>14.59x        </td><td>0.03x        </td><td>29.51x   </td><td style="text-align: right;">         1.378 </td></tr>
+</tbody>
+</table></body></html>

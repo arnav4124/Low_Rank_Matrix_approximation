@@ -1,0 +1,74 @@
+{
+    "G12": {
+        "svd_ratio": 0.9,
+        "best_ratio_error": 0.9485257358793,
+        "rank_distribution": {
+            "svd": 40,
+            "ensemble": 0
+        },
+        "rank_distribution_error": 0.9277050134030111
+    },
+    "G13": {
+        "svd_ratio": 0.9,
+        "best_ratio_error": 0.9473028709723612,
+        "rank_distribution": {
+            "svd": 40,
+            "ensemble": 0
+        },
+        "rank_distribution_error": 0.9256959480359688
+    },
+    "G14": {
+        "svd_ratio": 0.9,
+        "best_ratio_error": 0.8419175064960915,
+        "rank_distribution": {
+            "svd": 40,
+            "ensemble": 0
+        },
+        "rank_distribution_error": 0.7785229933205559
+    },
+    "G15": {
+        "svd_ratio": 0.9,
+        "best_ratio_error": 0.8381132655593151,
+        "rank_distribution": {
+            "svd": 40,
+            "ensemble": 0
+        },
+        "rank_distribution_error": 0.7741928431374634
+    },
+    "G2": {
+        "svd_ratio": 0.9,
+        "best_ratio_error": 0.91322480746622,
+        "rank_distribution": {
+            "svd": 40,
+            "ensemble": 0
+        },
+        "rank_distribution_error": 0.8815786785184972
+    },
+    "G3": {
+        "svd_ratio": 0.9,
+        "best_ratio_error": 0.9137165979415033,
+        "rank_distribution": {
+            "svd": 40,
+            "ensemble": 0
+        },
+        "rank_distribution_error": 0.8819091279636786
+    },
+    "G4": {
+        "svd_ratio": 0.9,
+        "best_ratio_error": 0.9135859821823636,
+        "rank_distribution": {
+            "svd": 40,
+            "ensemble": 0
+        },
+        "rank_distribution_error": 0.8818156973907122
+    },
+    "G5": {
+        "svd_ratio": 0.9,
+        "best_ratio_error": 0.9137362817048775,
+        "rank_distribution": {
+            "svd": 40,
+            "ensemble": 0
+        },
+        "rank_distribution_error": 0.8817628137957819
+    }
+}

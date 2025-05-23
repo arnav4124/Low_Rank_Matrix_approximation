@@ -1,0 +1,79 @@
+{
+    "title": "Matrix Approximation Methods Analysis at Rank 10",
+    "date": "May 8, 2025",
+    "key_findings": {
+        "best_error_method": "    Deterministic SVD\nName: 0, dtype: object",
+        "best_time_method": "    CUR\nName: 4, dtype: object",
+        "best_efficiency_method": "    Deterministic SVD\nName: 0, dtype: object",
+        "best_overall_method": "Deterministic SVD",
+        "randomized_svd_speedup": 21.99,
+        "randomized_svd_error_ratio": 1.0
+    },
+    "error_performance": {
+        "Deterministic SVD": {
+            "mean_frob_error": 0.1843410893159666,
+            "mean_spec_error": 0.14992471805932428
+        },
+        "Randomized SVD": {
+            "mean_frob_error": 0.1843410893161026,
+            "mean_spec_error": 0.14992471805932422
+        },
+        "RL-DQN": {
+            "mean_frob_error": 0.9966360220288419,
+            "mean_spec_error": 1.0
+        },
+        "RL-A2C": {
+            "mean_frob_error": 0.9596751216125279,
+            "mean_spec_error": 0.9998747582516101
+        },
+        "CUR": {
+            "mean_frob_error": 2.68876534183463,
+            "mean_spec_error": 4.2359645719107935
+        }
+    },
+    "time_performance": {
+        "Deterministic SVD": {
+            "mean_time": 2.372743308544159
+        },
+        "Randomized SVD": {
+            "mean_time": 0.1078888177871704
+        },
+        "RL-DQN": {
+            "mean_time": 0.22793865203857416
+        },
+        "RL-A2C": {
+            "mean_time": 2.5949122309684753
+        },
+        "CUR": {
+            "mean_time": 0.08039665222167966
+        }
+    },
+    "matrix_specific_insights": {
+        "oscil_dcop_10": {
+            "best_method": "Deterministic SVD",
+            "svd_error": 0.184340971950101,
+            "fastest_method": "CUR"
+        },
+        "oscil_dcop_11": {
+            "best_method": "Deterministic SVD",
+            "svd_error": 0.1843411283324822,
+            "fastest_method": "Randomized SVD"
+        },
+        "oscil_dcop_12": {
+            "best_method": "Deterministic SVD",
+            "svd_error": 0.184341155129828,
+            "fastest_method": "CUR"
+        },
+        "oscil_dcop_13": {
+            "best_method": "Deterministic SVD",
+            "svd_error": 0.1843411018514553,
+            "fastest_method": "CUR"
+        }
+    },
+    "recommendations": [
+        "For highest accuracy: Use     Deterministic SVD\nName: 0, dtype: object",
+        "For fastest computation: Use     CUR\nName: 4, dtype: object",
+        "For best efficiency (error/time ratio): Use     Deterministic SVD\nName: 0, dtype: object",
+        "Best overall balance: Use Deterministic SVD"
+    ]
+}
